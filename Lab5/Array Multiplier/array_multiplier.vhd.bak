@@ -1,0 +1,65 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity array_multiplier is
+ port (
+ 	A : in STD_LOGIC_Vector(3 downto 0);
+ 	B : in STD_LOGIC_VECTOR(3 downto 0);
+	C : out STD_LOGIC_VECTOR(7 downto 0)
+ );
+end array_multiplier;
+
+architecture behavioral of array_multiplier is
+component Ripple_adder
+ port (
+ 	A : in STD_LOGIC_VECTOR(3 downto 0);
+ 	B : in STD_LOGIC_VECTOR(3 downto 0);
+ 	Cin : in STD_LOGIC;
+ 	S : out STD_LOGIC_VECTOR(3 downto 0);
+	Cout : out STD_LOGIC
+ );
+end component;
+
+
+signal and_gate : STD_LOGIC_VECTOR(14 downto 0);
+signal RA_1_cout : STD_LOGIC;
+signal RA_2_cout : STD_LOGIC;
+signal RA_1_sum :STD_LOGIC_VECTOR(3 downto 0);
+signal RA_2_sum : STD_LOGIC_VECTOR(3 downto 0);
+
+begin
+
+C(0) <= A(0) and B(0);
+and_gate(0) <= A(1) and B(0);
+and_gate(1) <= A(2) and B(0);
+and_gate(2) <= A(3) and B(0);
+and_gate(3) <= A(0) and B(1);
+and_gate(4) <= A(1) and B(1);
+and_gate(5) <= A(2) and B(1);
+and_gate(6) <= A(3) and B(1);
+and_gate(7) <= A(0) and B(2);
+and_gate(8) <= A(1) and B(2);
+and_gate(9) <= A(2) and B(2);
+and_gate(10)<= A(3) and B(2);
+and_gate(11) <= A(0) and B(3);
+and_gate(12) <= A(1) and B(3);
+and_gate(13) <= A(2) and B(3);
+and_gate(14) <= A(3) and B(3);
+
+RA1 : Ripple_Adder port map(A(0) => and_gate(0) ,A(1) => and_gate(1) ,A(2) => and_gate(2) ,A(3) => '0',
+			    B(0) => and_gate(3) , B(1) => and_gate(4) ,B(2) => and_gate(5) , B(3) => and_gate(6), 
+			    Cin => '0', S => RA_1_sum, Cout => RA_1_cout);
+
+RA2 : Ripple_Adder port map(A(0) => RA_1_sum(1) ,A(1) => RA_1_sum(2) ,A(2) => RA_1_sum(3) ,A(3) => RA_1_cout, 
+		            B(0) => and_gate(7) , B(1) => and_gate(8) , B(2) =>and_gate(9) , B(3) => and_gate(10),
+			    Cin => '0', S => RA_2_sum, Cout => RA_2_cout);
+
+C(1) <= RA_1_sum(0);
+
+RA3 : Ripple_Adder port map(A(0) => RA_2_sum(1) , A(1) => RA_2_sum(2) ,A(2) =>  RA_2_sum(3) ,A(3) =>  RA_2_cout,
+			    B(0) => and_gate(11) , B(1) => and_gate(12) , B(2) => and_gate(13) , B(3) => and_gate(14), 
+			    Cin => '0', S => C(6 downto 3), Cout => C(7));
+C(2) <= RA_2_sum(0);
+
+
+end behavioral;

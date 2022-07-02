@@ -1,0 +1,138 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> Reading design: Ram_dual_port.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Ram_dual_port.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Ram_dual_port"
+Output Format                      : NGC
+Target Device                      : xc6slx4-3-tqg144
+
+---- Source Options
+Top Module Name                    : Ram_dual_port
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" into library work
+Parsing entity <Ram_dual_port>.
+ERROR:HDLCompiler:69 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 23: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 24: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 25: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 26: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 27: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 28: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 29: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:854 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 20: Unit <ram_dual_port> ignored due to previous errors.
+Parsing architecture <Behavioral> of entity <ram_dual_port>.
+ERROR:HDLCompiler:374 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 33: Entity <ram_dual_port> is not yet compiled.
+ERROR:HDLCompiler:69 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 37: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 38: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 39: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 40: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 41: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 42: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 43: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 49: <input_a> is not declared.
+ERROR:HDLCompiler:192 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 49: Actual of formal out port data_out cannot be an expression
+ERROR:HDLCompiler:69 - "C:\Users\User\Desktop\Lab07-HeliaSadatHashemipour-9831106\dual-port-ram\dual_port_ram.vhd" Line 50: <input_b> is not declared.
+Sorry, too many errors..
+--> 
+
+Total memory usage is 4445692 kilobytes
+
+Number of errors   :   19 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

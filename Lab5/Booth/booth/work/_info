@@ -1,0 +1,161 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/multiplier
+T_opt
+!s110 1619976258
+V4m1JPX3;Y3AMQi>RI4mCS3
+Z1 04 19 4 work tb_booth_multiplier test 1
+=1-78843ce57b7a-608ee042-ce-2548
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1620024335
+VF=kCgKbaG8TTfHnz^B`II0
+R1
+=1-78843ce57b7a-608f9c0e-193-1b70
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1620018508
+VOFNhm@1C92jfK5WYZ7OXD3
+R1
+=1-78843ce57b7a-608f854c-a2-1158
+o-quiet -auto_acc_if_foreign -work work
+R3
+n@_opt2
+R4
+R0
+T_opt3
+!s110 1620027700
+V<oNIX1[[V]`C5SFX6>K]51
+R1
+=1-78843ce57b7a-608fa933-50-212c
+R2
+R3
+n@_opt3
+R4
+Ebooth_multiplier
+Z5 w1620017834
+Z6 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z7 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z8 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 55
+Z11 dC:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/booth
+Z12 8C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/booth/booth_multiplier.vhd
+Z13 FC:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/booth/booth_multiplier.vhd
+l0
+L6 1
+V8HNnLQ:O4SkHENc1X1?Fa2
+!s100 jnDMF[hUbbZKRL=c9HE`g1
+Z14 OL;C;2020.4;71
+32
+Z15 !s110 1620027685
+!i10b 1
+Z16 !s108 1620027684.000000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/booth/booth_multiplier.vhd|
+Z18 !s107 C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/booth/booth_multiplier.vhd|
+!i113 0
+Z19 o-work work -2002 -explicit
+Z20 tExplicit 1 CvgOpt 0
+Abehavioral
+R6
+R7
+R8
+R9
+R10
+DEx4 work 16 booth_multiplier 0 22 8HNnLQ:O4SkHENc1X1?Fa2
+!i122 55
+l15
+L14 34
+VL47b:iMe;kXB<eNdTzfmF2
+!s100 <zYM8JTn@>1[nHUnWfF9o3
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20
+Abooth_multiplier_arc
+R8
+R6
+DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R9
+R10
+DEx4 work 16 booth_multiplier 0 22 ^<l07eH:zeojdh?>8NK5?3
+!i122 25
+l17
+L16 33
+VP49_Eb`=3dLi;jkDM81_G0
+!s100 Y50DE1lQghR1=]H^NhNa53
+R14
+32
+!s110 1619977252
+!i10b 1
+!s108 1619977252.000000
+R17
+R18
+!i113 0
+R19
+R20
+w1619977223
+Etb_booth_multiplier
+Z21 w1620024323
+R9
+R10
+!i122 56
+R11
+Z22 8C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/booth/tb_booth_multiplier.vhd
+Z23 FC:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/booth/tb_booth_multiplier.vhd
+l0
+L4 1
+VOaZ:[ENdh>7@>NAgFaMa^3
+!s100 ]6j`?9]GC]o6]4FDHX=VH1
+R14
+32
+R15
+!i10b 1
+Z24 !s108 1620027685.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/booth/tb_booth_multiplier.vhd|
+Z26 !s107 C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/booth/tb_booth_multiplier.vhd|
+!i113 0
+R19
+R20
+Atest
+R9
+R10
+DEx4 work 19 tb_booth_multiplier 0 22 OaZ:[ENdh>7@>NAgFaMa^3
+!i122 56
+l20
+L6 41
+V:;@2B83DmeAQ?A]@>O3Re3
+!s100 g5f;@VXB@0Z68`JMXmiKF0
+R14
+32
+R15
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R19
+R20

@@ -1,0 +1,225 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/User/Downloads/Lab04-HeliaSadatHashemipour-9831106 (1)/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder
+T_opt
+!s110 1619960155
+V>;J02eOnN@2IJY1]m_93K1
+04 19 4 work tb_array_multiplier test 1
+=1-78843ce57b7a-608ea15b-162-b18
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+Earray_multiplier
+Z0 w1619960141
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 19
+Z3 dC:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier
+Z4 8C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/array_multiplier.vhd
+Z5 FC:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/array_multiplier.vhd
+l0
+L4 1
+Vc0FekA;6SJXhhe;9<i3620
+!s100 Hz2bF^8cAmkGGMV_^FM691
+Z6 OL;C;2020.4;71
+32
+Z7 !s110 1619960147
+!i10b 1
+Z8 !s108 1619960147.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/array_multiplier.vhd|
+Z10 !s107 C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/array_multiplier.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+DEx4 work 16 array_multiplier 0 22 c0FekA;6SJXhhe;9<i3620
+!i122 19
+l30
+L12 54
+V8<k@X2mKmlZAKOh8VGiSC1
+!s100 z]ON;i[cH<3<HCTal0gFd1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Efull_adder
+Z13 w1619958547
+R1
+R2
+!i122 15
+R3
+Z14 8C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/full_adder.vhd
+Z15 FC:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/full_adder.vhd
+l0
+L4 1
+VTELHBbd6BmR8eP55XE`Mb1
+!s100 8;CmXTIieKXbboII1lDDc0
+R6
+32
+Z16 !s110 1619958564
+!i10b 1
+Z17 !s108 1619958564.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/full_adder.vhd|
+Z19 !s107 C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/full_adder.vhd|
+!i113 0
+R11
+R12
+Astructure
+R1
+R2
+DEx4 work 10 full_adder 0 22 TELHBbd6BmR8eP55XE`Mb1
+!i122 15
+l25
+L13 18
+V=GcaKhoF<[SGQ4HmQl`<n2
+!s100 ;4njiG:9<E2h;aVH]1SCZ3
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R11
+R12
+Ehalf_adder
+Z20 w1619955379
+R1
+R2
+!i122 13
+R3
+Z21 8C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/half_adder.vhd
+Z22 FC:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/half_adder.vhd
+l0
+L4 1
+VFICUPl^59UZfMjF_5Jl4P0
+!s100 XI;]1LE8TQdkcE:`Dee3E0
+R6
+32
+Z23 !s110 1619958460
+!i10b 1
+Z24 !s108 1619958460.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/half_adder.vhd|
+Z26 !s107 C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/half_adder.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 10 half_adder 0 22 FICUPl^59UZfMjF_5Jl4P0
+!i122 13
+l13
+L12 6
+VRZh@^MD6?K?NA7clc>5[M3
+!s100 X>Yn@?4:7;VJY2fj`A?MZ1
+R6
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R11
+R12
+Eripple_adder
+Z27 w1619955439
+R1
+R2
+!i122 14
+R3
+Z28 8C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/ripple_adder.vhd
+Z29 FC:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/ripple_adder.vhd
+l0
+L4 1
+VeII^DTEJL6MdB4F4U<lX<3
+!s100 T_IXhVoMadbOWIckzT`@;2
+R6
+32
+Z30 !s110 1619958551
+!i10b 1
+Z31 !s108 1619958551.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/ripple_adder.vhd|
+Z33 !s107 C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/ripple_adder.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 12 ripple_adder 0 22 eII^DTEJL6MdB4F4U<lX<3
+!i122 14
+l28
+L14 21
+V_oFc9IG[gmGW3Q^mjZGAN1
+!s100 SJ7W^L6]f1jk0WWICQXKD1
+R6
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R11
+R12
+Etb_array_multiplier
+Z34 w1619958454
+R1
+R2
+!i122 10
+R3
+Z35 8C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/tb_array_multiplier.vhd
+Z36 FC:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/tb_array_multiplier.vhd
+l0
+L4 1
+VWVd6E<<A3iJe@^GVVIRZY1
+!s100 jSO]1ATle@Y4PXaH1>m4R1
+R6
+32
+Z37 !s110 1619958459
+!i10b 1
+Z38 !s108 1619958459.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/tb_array_multiplier.vhd|
+Z40 !s107 C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Array Multiplier/tb_array_multiplier.vhd|
+!i113 0
+R11
+R12
+Atest
+R1
+R2
+DEx4 work 19 tb_array_multiplier 0 22 WVd6E<<A3iJe@^GVVIRZY1
+!i122 10
+l20
+L6 41
+V>C@o7Wbi>gYinAORm`lUf0
+!s100 2V4a3`IT;R_VkW:L@BR_:3
+R6
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 0
+R11
+R12

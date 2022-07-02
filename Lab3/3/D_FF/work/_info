@@ -1,0 +1,112 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/f/Desktop/rojina/memari/2/Comparetor
+T_opt
+!s110 1617943859
+V]^H4Q_YK9ROaa`Q@=@6l^2
+Z1 04 7 8 work d_ff_tb behavior 1
+=1-bc838515f377-606fdd33-157-12b8
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+T_opt1
+!s110 1617943689
+VK6E^CHSc3b3NZ;AC9KzeM1
+R1
+=1-bc838515f377-606fdc88-395-1a94
+o-quiet -auto_acc_if_foreign -work work
+R2
+n@_opt1
+R3
+R0
+Ed_ff
+Z4 w1617943255
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+Z7 dC:/Users/f/Desktop/rojina/memari/3/D_FF
+Z8 8C:\Users\f\Desktop\rojina\memari\3\D_FF\D_FF.vhd
+Z9 FC:\Users\f\Desktop\rojina\memari\3\D_FF\D_FF.vhd
+l0
+L4 1
+VLa7i?M]:=J>nXKzJEI_n12
+!s100 53nL?aFcK>XZ1>mG56^0h1
+Z10 OL;C;2020.4;71
+32
+Z11 !s110 1617943374
+!i10b 1
+Z12 !s108 1617943374.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\3\D_FF\D_FF.vhd|
+Z14 !s107 C:\Users\f\Desktop\rojina\memari\3\D_FF\D_FF.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Abehavioral
+R5
+R6
+DEx4 work 4 d_ff 0 22 La7i?M]:=J>nXKzJEI_n12
+!i122 2
+l13
+L11 13
+V6n^SGGa?f;ZFK8DPoIU[`0
+!s100 g<F2Scf9A;5Nd7]Bl>F2L1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Ed_ff_tb
+Z17 w1617943786
+R5
+R6
+!i122 4
+R7
+Z18 8C:\Users\f\Desktop\rojina\memari\3\D_FF\D_FF_tb.vhd
+Z19 FC:\Users\f\Desktop\rojina\memari\3\D_FF\D_FF_tb.vhd
+l0
+L5 1
+V7:D3ELZ6Tdn4c^U?JgiQJ0
+!s100 bIbDDC1;KS[9ZGh<1aBjB3
+R10
+32
+Z20 !s110 1617943849
+!i10b 1
+Z21 !s108 1617943848.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\3\D_FF\D_FF_tb.vhd|
+Z23 !s107 C:\Users\f\Desktop\rojina\memari\3\D_FF\D_FF_tb.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+DEx4 work 7 d_ff_tb 0 22 7:D3ELZ6Tdn4c^U?JgiQJ0
+!i122 4
+l33
+L8 71
+V_hZcGiQNjZoTbP9=;MN=S3
+!s100 <KH1QX_R48EN`P0G<<LNA3
+R10
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R15
+R16

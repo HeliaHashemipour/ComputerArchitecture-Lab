@@ -1,0 +1,102 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/f/Desktop/rojina/memari/2/Mux
+T_opt
+!s110 1616534012
+VSVn6ZVMa8<c7=T9HaBkEP3
+04 13 8 work decoder2_4_tb behavior 1
+=1-bc838515f377-605a59fb-23e-3060
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+Edecoder2_4
+Z0 w1616533639
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+Z3 dC:/Users/f/Desktop/rojina/memari/2/Decoder
+Z4 8C:\Users\f\Desktop\rojina\memari\2\Decoder\Decoder2_4.vhd
+Z5 FC:\Users\f\Desktop\rojina\memari\2\Decoder\Decoder2_4.vhd
+l0
+L4 1
+V?XeSb2iRbSeGl25RGZkLL2
+!s100 @mj8I8YRdC[mclSlCMT]e3
+Z6 OL;C;2020.4;71
+32
+Z7 !s110 1616533643
+!i10b 1
+Z8 !s108 1616533643.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\2\Decoder\Decoder2_4.vhd|
+Z10 !s107 C:\Users\f\Desktop\rojina\memari\2\Decoder\Decoder2_4.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Agatelevel
+R1
+R2
+DEx4 work 10 decoder2_4 0 22 ?XeSb2iRbSeGl25RGZkLL2
+!i122 2
+l11
+L10 7
+VGJ2dZ820_DjbK[OOQKGP12
+!s100 j04KHWDmKBh44^h;Y7ZoL1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Edecoder2_4_tb
+Z13 w1616533942
+R1
+R2
+!i122 3
+R3
+Z14 8C:\Users\f\Desktop\rojina\memari\2\Decoder\Decoder2_4_tb.vhd
+Z15 FC:\Users\f\Desktop\rojina\memari\2\Decoder\Decoder2_4_tb.vhd
+l0
+L4 1
+Vd14BNXH@T4OR`BhgT`m]i3
+!s100 2nHzPONdoG@cj4;iBT5Sj3
+R6
+32
+Z16 !s110 1616533945
+!i10b 1
+Z17 !s108 1616533945.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\2\Decoder\Decoder2_4_tb.vhd|
+Z19 !s107 C:\Users\f\Desktop\rojina\memari\2\Decoder\Decoder2_4_tb.vhd|
+!i113 0
+R11
+R12
+Abehavior
+R1
+R2
+DEx4 work 13 decoder2_4_tb 0 22 d14BNXH@T4OR`BhgT`m]i3
+!i122 3
+l27
+L7 60
+VOAP;^9bnXT^:<=YNH`OMj2
+!s100 X@zOm`lTd78aQ;DWb_AVR3
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R11
+R12

@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/f/Desktop/rojina/memari/2/Decoder
+T_opt
+!s110 1616535158
+VOS_f=3nZ>n:@gze3A<I8E1
+04 13 8 work encoder4_2_tb behavior 1
+=1-bc838515f377-605a5e75-2a6-2594
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+R0
+Eencoder4_2
+Z1 w1616534857
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z4 dC:/Users/f/Desktop/rojina/memari/2/Encoder
+Z5 8C:\Users\f\Desktop\rojina\memari\2\Encoder\Encoder4_2.vhd
+Z6 FC:\Users\f\Desktop\rojina\memari\2\Encoder\Encoder4_2.vhd
+l0
+L4 1
+V`E984e5m4F[c2Zch4YHf23
+!s100 TiGWG?g>?kK@blUn1h1Vm1
+Z7 OL;C;2020.4;71
+32
+Z8 !s110 1616534861
+!i10b 1
+Z9 !s108 1616534861.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\2\Encoder\Encoder4_2.vhd|
+Z11 !s107 C:\Users\f\Desktop\rojina\memari\2\Encoder\Encoder4_2.vhd|
+!i113 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Agatelevel
+R2
+R3
+DEx4 work 10 encoder4_2 0 22 `E984e5m4F[c2Zch4YHf23
+!i122 0
+l11
+L10 6
+VAb[:E`O`2<iVlgJ4iV66k3
+!s100 eY9@UXmYEiVN@?3C>mJen1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Eencoder4_2_tb
+Z14 w1616535373
+R2
+R3
+!i122 3
+R4
+Z15 8C:/Users/f/Desktop/rojina/memari/2/Encoder/Encoder4_2_tb.vhd
+Z16 FC:/Users/f/Desktop/rojina/memari/2/Encoder/Encoder4_2_tb.vhd
+l0
+L4 1
+VT`LDbDM27SJCjBbkfW]?Y2
+!s100 n=Z4cehbjmaY?H?5M=Of^0
+R7
+32
+Z17 !s110 1616535523
+!i10b 1
+Z18 !s108 1616535523.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/f/Desktop/rojina/memari/2/Encoder/Encoder4_2_tb.vhd|
+!s107 C:/Users/f/Desktop/rojina/memari/2/Encoder/Encoder4_2_tb.vhd|
+!i113 0
+R12
+R13
+Abehavior
+R2
+R3
+Z20 DEx4 work 13 encoder4_2_tb 0 22 T`LDbDM27SJCjBbkfW]?Y2
+!i122 3
+l26
+Z21 L7 48
+V>9nD@nOJVA2dEhI642n4o2
+!s100 57m@icaZazUR9JEceD;D[1
+R7
+32
+R17
+!i10b 1
+R18
+R19
+Z22 !s107 C:/Users/f/Desktop/rojina/memari/2/Encoder/Encoder4_2_tb.vhd|
+!i113 0
+R12
+R13

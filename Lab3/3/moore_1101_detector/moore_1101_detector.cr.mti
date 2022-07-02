@@ -1,0 +1,18 @@
+C:/Users/f/Desktop/rojina/memari/3/moore_1101_detector/moore_1101_detector.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\f\Desktop\rojina\memari\3\moore_1101_detector\moore_1101_detector.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity moore_1101_detector
+-- Compiling architecture Behavioral of moore_1101_detector
+
+} {} {}} C:/Users/f/Desktop/rojina/memari/3/moore_1101_detector/moore_1101_tb.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\f\Desktop\rojina\memari\3\moore_1101_detector\moore_1101_tb.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity moore_1101_tb
+-- Compiling architecture behavior of moore_1101_tb
+** Warning: C:\Users\f\Desktop\rojina\memari\3\moore_1101_detector\moore_1101_tb.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}}

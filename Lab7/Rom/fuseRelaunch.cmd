@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/User/Desktop/Lab07-HeliaSadatHashemipour-9831106/Rom/Rom_tb_isim_beh.exe" -prj "C:/Users/User/Desktop/Lab07-HeliaSadatHashemipour-9831106/Rom/Rom_tb_beh.prj" "work.Rom_tb" 

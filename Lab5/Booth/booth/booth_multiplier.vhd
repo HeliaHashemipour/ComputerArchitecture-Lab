@@ -1,0 +1,50 @@
+------------------------------
+--Lab05 multipliers
+------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_unsigned.all;
+ 
+entity booth_multiplier is
+    port(
+	 B: IN std_logic_vector(3 downto 0);
+	 Q: IN std_logic_vector(3 downto 0);
+         Output: OUT std_logic_vector(7 downto 0)
+);
+end booth_multiplier;
+   
+architecture behavioral of booth_multiplier is
+    begin
+           
+        process(B, Q)
+         variable Arr: std_logic_vector(8 downto 0);
+         variable M,A : std_logic_vector(3 downto 0);
+         variable n:integer;
+  	
+            begin
+                Arr := "000000000";
+                M := B;
+                Arr(4 downto 1) := Q;
+		                   
+                for n in 0 to 3 loop
+                   if(Arr(1) = '1' and Arr(0) = '0') then --if '10' then A=A-M
+                      A := (Arr(8 downto 5));
+                      Arr(8 downto 5) := (A + not(M)+1);
+                         
+                   elsif(Arr(1) = '0' and Arr(0) = '1') then --if '01' then A=A+M
+                      A := (Arr(8 downto 5));
+                      Arr(8 downto 5) := (A + M);
+		   
+		   else --if '00' or '11' then A=A
+			 A := (Arr(8 downto 5));
+                         
+                   end if;
+                     --one bit shift(right)
+                   Arr(7 downto 0) := Arr(8 downto 1); 
+                     
+                end loop;
+                   
+                Output(7 downto 0) <= Arr(8 downto 1);
+            end process;            
+        end behavioral;

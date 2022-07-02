@@ -1,0 +1,66 @@
+C:/Users/f/Desktop/test/shift_register.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\f\Desktop\test\shift_register.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_register
+-- Compiling architecture parallel_in_arc of shift_register
+
+} {} {}} C:/Users/f/Desktop/test/tb_shift_register.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\f\Desktop\test\tb_shift_register.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_shift_register
+-- Compiling architecture behavior of tb_shift_register
+
+} {} {}} C:/Users/f/Desktop/test/seven_segment.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\f\Desktop\test\seven_segment.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity seven_segment
+-- Compiling architecture arc of seven_segment
+
+} {} {}} C:/Users/f/Desktop/test/tb_seven_segment.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\f\Desktop\test\tb_seven_segment.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_seven_segment
+-- Compiling architecture behavior of tb_seven_segment
+
+} {} {}} C:/Users/f/Desktop/test/freq_divider.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\f\Desktop\test\freq_divider.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity freq_divider
+-- Compiling architecture freq_divider_arc of freq_divider
+
+} {} {}} C:/Users/f/Desktop/test/top_module.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\f\Desktop\test\top_module.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity top_module
+-- Compiling architecture Behavioral of top_module
+
+} {} {}} C:/Users/f/Desktop/test/tb_freq_divider.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\f\Desktop\test\tb_freq_divider.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_freq_divider
+-- Compiling architecture behavior of tb_freq_divider
+
+} {} {}} C:/Users/f/Desktop/test/tb_top_module.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\f\Desktop\test\tb_top_module.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_top_module
+-- Compiling architecture behavior of tb_top_module
+
+} {} {}}

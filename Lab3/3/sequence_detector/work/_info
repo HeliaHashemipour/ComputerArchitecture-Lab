@@ -1,0 +1,102 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1618291580
+V`Yk<4G74b7X][Sf_HSf:O3
+04 11 8 work sequence_tb behavior 1
+=1-bc838515f377-60752b7b-37a-16a8
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+Esequence_detector
+Z0 w1618291491
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 dC:/Users/f/Desktop/rojina/memari/3/sequence_detector
+Z4 8C:\Users\f\Desktop\rojina\memari\3\sequence_detector\sequence_detector.vhd
+Z5 FC:\Users\f\Desktop\rojina\memari\3\sequence_detector\sequence_detector.vhd
+l0
+L4 1
+Vk[MhFVmA:M[La4Mm_<ea>2
+!s100 XmObFIR5L:o=Kdn7E;F`l2
+Z6 OL;C;2020.4;71
+32
+Z7 !s110 1618291508
+!i10b 1
+Z8 !s108 1618291508.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\3\sequence_detector\sequence_detector.vhd|
+Z10 !s107 C:\Users\f\Desktop\rojina\memari\3\sequence_detector\sequence_detector.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+DEx4 work 17 sequence_detector 0 22 k[MhFVmA:M[La4Mm_<ea>2
+!i122 0
+l18
+L12 65
+Vm:dgza_ajW3nAPVDO6?Z53
+!s100 TRcQO^M_C>=9R9`kK[Sc83
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Esequence_tb
+Z13 w1618291573
+R1
+R2
+!i122 3
+R3
+Z14 8C:\Users\f\Desktop\rojina\memari\3\sequence_detector\sequence_tb.vhd
+Z15 FC:\Users\f\Desktop\rojina\memari\3\sequence_detector\sequence_tb.vhd
+l0
+L6 1
+V8^g[EB=d8GoOTh3iC=zMI1
+!s100 N?]:m;<c@eYS^9<nWbld?1
+R6
+32
+Z16 !s110 1618291576
+!i10b 1
+Z17 !s108 1618291576.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\3\sequence_detector\sequence_tb.vhd|
+Z19 !s107 C:\Users\f\Desktop\rojina\memari\3\sequence_detector\sequence_tb.vhd|
+!i113 0
+R11
+R12
+Abehavior
+R1
+R2
+DEx4 work 11 sequence_tb 0 22 8^g[EB=d8GoOTh3iC=zMI1
+!i122 3
+l32
+L9 71
+VR?7_NhInSfT6PD`XnlZez1
+!s100 dcoo7zMRBQSX;KG3JDhHR2
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R11
+R12

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/User/Desktop/Lab07-HeliaSadatHashemipour-9831106/Cam/Cam_test_isim_beh.exe" -prj "C:/Users/User/Desktop/Lab07-HeliaSadatHashemipour-9831106/Cam/Cam_test_beh.prj" "work.Cam_test" 

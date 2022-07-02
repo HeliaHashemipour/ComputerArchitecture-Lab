@@ -1,0 +1,35 @@
+C:/Users/f/Desktop/rojina/memari/2/Mux/Mux16_1_test.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\f\Desktop\rojina\memari\2\Mux\Mux16_1_test.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux16_1_test
+-- Compiling architecture behavior of mux16_1_test
+** Warning: C:\Users\f\Desktop\rojina\memari\2\Mux\Mux16_1_test.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:\Users\f\Desktop\rojina\memari\2\Mux\Mux16_1_test.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:\Users\f\Desktop\rojina\memari\2\Mux\Mux16_1_test.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} C:/Users/f/Desktop/rojina/memari/2/Mux/Mux(4x1).vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\f\Desktop\rojina\memari\2\Mux\Mux(4x1).vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: C:\Users\f\Desktop\rojina\memari\2\Mux\Mux(4x1).vhd(4): near "(": (vcom-1576) expecting IS.
+
+} {6.0 7.0} {}} C:/Users/f/Desktop/rojina/memari/2/Mux/Mux16_1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\f\Desktop\rojina\memari\2\Mux\Mux16_1.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux16_1
+-- Compiling architecture GateLevel of mux16_1
+
+} {} {}} C:/Users/f/Desktop/rojina/memari/2/Mux/Mux4_1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\f\Desktop\rojina\memari\2\Mux\Mux4_1.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4_1
+-- Compiling architecture GateLevel of mux4_1
+
+} {} {}}

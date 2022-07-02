@@ -1,0 +1,25 @@
+{C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/carry_save_adder.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/carry_save_adder.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity carry_save_adder
+-- Compiling architecture behavioral of carry_save_adder
+
+} {} {}} {C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/full_adder.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/full_adder.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity full_adder
+-- Compiling architecture structure of full_adder
+
+} {} {}} {C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/half_adder.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/half_adder.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity half_adder
+-- Compiling architecture Behavioral of half_adder
+
+} {} {}}

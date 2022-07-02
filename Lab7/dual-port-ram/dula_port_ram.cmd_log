@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/User/Desktop/Lab07-HeliaSadatHashemipour-9831106/dual-port-ram/dula_port_ram.xst" -ofn "C:/Users/User/Desktop/Lab07-HeliaSadatHashemipour-9831106/dual-port-ram/dula_port_ram.syr" 

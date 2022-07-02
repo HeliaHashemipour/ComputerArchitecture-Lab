@@ -1,0 +1,2 @@
+vhdl isim_temp "Rom.vhd"
+vhdl isim_temp "Rom_tb.vhd"

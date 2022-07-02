@@ -1,0 +1,102 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/f/Desktop/tff
+T_opt
+!s110 1618072634
+V_nY0l;6gzDO;[DLX:U@kY3
+04 13 8 work mealy_1101_tb behavior 1
+=1-bc838515f377-6071d439-189-202c
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+Emealy_1101_detector
+Z0 w1618072559
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+Z3 dC:/Users/f/Desktop/rojina/memari/3/mealy_1101_detector
+Z4 8C:\Users\f\Desktop\rojina\memari\3\mealy_1101_detector\mealy_1101_detector.vhd
+Z5 FC:\Users\f\Desktop\rojina\memari\3\mealy_1101_detector\mealy_1101_detector.vhd
+l0
+L4 1
+V5jP[Tj4V:mSTBQ:[Bd8_`2
+!s100 j6@XWDe6>UF4?eX=J>KQF0
+Z6 OL;C;2020.4;71
+32
+Z7 !s110 1618072611
+!i10b 1
+Z8 !s108 1618072611.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\3\mealy_1101_detector\mealy_1101_detector.vhd|
+Z10 !s107 C:\Users\f\Desktop\rojina\memari\3\mealy_1101_detector\mealy_1101_detector.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+DEx4 work 19 mealy_1101_detector 0 22 5jP[Tj4V:mSTBQ:[Bd8_`2
+!i122 1
+l13
+L11 56
+V[VJC3A2_cIoEP`R?emlDb2
+!s100 209jN[FRJOdZ1:61<[f_H0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Emealy_1101_tb
+Z13 w1618072601
+R1
+R2
+!i122 2
+R3
+Z14 8C:\Users\f\Desktop\rojina\memari\3\mealy_1101_detector\mealy_1101_tb.vhd
+Z15 FC:\Users\f\Desktop\rojina\memari\3\mealy_1101_detector\mealy_1101_tb.vhd
+l0
+L4 1
+V0<2D7RHkIo8h<CVQF4Y402
+!s100 lciZ8oLWD5PO3z`a:i]CF1
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\3\mealy_1101_detector\mealy_1101_tb.vhd|
+Z17 !s107 C:\Users\f\Desktop\rojina\memari\3\mealy_1101_detector\mealy_1101_tb.vhd|
+!i113 0
+R11
+R12
+Abehavior
+R1
+R2
+DEx4 work 13 mealy_1101_tb 0 22 0<2D7RHkIo8h<CVQF4Y402
+!i122 2
+l32
+L7 109
+VgQn8Sglf^`b_CM:_JYzml1
+!s100 27eA;ULah:iCL92HSj@D60
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 0
+R11
+R12

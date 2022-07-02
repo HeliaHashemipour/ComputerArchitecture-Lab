@@ -1,0 +1,450 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/f/Desktop/rojina/memari/2/Encoder
+T_opt
+!s110 1616575802
+VJD>S6CCGK8jYS]lM=6@HY0
+04 11 10 work comperator1 behavioral 1
+=1-bc838515f377-605afd39-3a2-38e0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+Z2 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1616571884
+V23oP;HhDDFXdbBK6;6Ni30
+04 12 8 work mux16_1_test behavior 1
+=1-bc838515f377-605aedeb-356-38f8
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+R1
+n@_opt1
+R2
+R0
+T_opt2
+!s110 1616577315
+V0U7Y]e3f5@YbfRUUQ9:LC1
+04 14 8 work comperator3_tb behavior 1
+=1-bc838515f377-605b0322-173-2be4
+R3
+R1
+n@_opt2
+R2
+Ecomperator1
+Z4 w1616577278
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 36
+Z7 dC:/Users/f/Desktop/rojina/memari/2/Comparetor
+Z8 8C:\Users\f\Desktop\rojina\memari\2\Comparetor\Comparetor1.vhd
+Z9 FC:\Users\f\Desktop\rojina\memari\2\Comparetor\Comparetor1.vhd
+l0
+L4 1
+V[3SeFfzT8L<;@KTFoRPT92
+!s100 2z6zo5emn@QPmbMWF[lI23
+Z10 OL;C;2020.4;71
+32
+Z11 !s110 1616577297
+!i10b 1
+Z12 !s108 1616577297.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\2\Comparetor\Comparetor1.vhd|
+Z14 !s107 C:\Users\f\Desktop\rojina\memari\2\Comparetor\Comparetor1.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Abehavioral
+R5
+R6
+DEx4 work 11 comperator1 0 22 [3SeFfzT8L<;@KTFoRPT92
+!i122 36
+l19
+L16 13
+VC_A4cB]4X^feoIa4oA3=f1
+!s100 @5Y`OODIT^2cQYOOaRo3K0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Ecomperator3
+Z17 w1616538250
+R5
+R6
+!i122 14
+R7
+Z18 8C:/Users/f/Desktop/rojina/memari/2/Comparetor/Comparetor3.vhd
+Z19 FC:/Users/f/Desktop/rojina/memari/2/Comparetor/Comparetor3.vhd
+l0
+L4 1
+V;M?U[78IiF@gjY]l4K[BV2
+!s100 F2kz06^6V6c0Jb^HL7l7o3
+R10
+32
+Z20 !s110 1616564457
+!i10b 1
+Z21 !s108 1616564457.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/f/Desktop/rojina/memari/2/Comparetor/Comparetor3.vhd|
+Z23 !s107 C:/Users/f/Desktop/rojina/memari/2/Comparetor/Comparetor3.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R5
+R6
+DEx4 work 11 comperator3 0 22 ;M?U[78IiF@gjY]l4K[BV2
+!i122 14
+l29
+L15 21
+VD:QOEYVjIo5WF9?3R3e<]3
+!s100 8fW0`SB?jY[1i9ANJihae3
+R10
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R15
+R16
+Ecomperator3_tb
+Z24 w1616576019
+R5
+R6
+!i122 35
+R7
+Z25 8C:\Users\f\Desktop\rojina\memari\2\Comparetor\Comparetor3_tb.vhd
+Z26 FC:\Users\f\Desktop\rojina\memari\2\Comparetor\Comparetor3_tb.vhd
+l0
+L4 1
+Vbf3aPJE6aWfmKl`JB_5aD0
+!s100 6n9]gc4_^aPTM]Q]U[n`U1
+R10
+32
+Z27 !s110 1616576040
+!i10b 1
+Z28 !s108 1616576039.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\2\Comparetor\Comparetor3_tb.vhd|
+Z30 !s107 C:\Users\f\Desktop\rojina\memari\2\Comparetor\Comparetor3_tb.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+DEx4 work 14 comperator3_tb 0 22 bf3aPJE6aWfmKl`JB_5aD0
+!i122 35
+l36
+L7 76
+VQ4dHi:;k>7L:jD<L7?gBX2
+!s100 ;QZ_GG17QWRDn3deckB`=1
+R10
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R15
+R16
+Edecoder2_4
+Z31 w1616562641
+R5
+R6
+!i122 17
+R7
+Z32 8C:/Users/f/Desktop/rojina/memari/2/Decoder/Decoder2_4.vhd
+Z33 FC:/Users/f/Desktop/rojina/memari/2/Decoder/Decoder2_4.vhd
+l0
+L4 1
+VUl_jHeQJRKW0;oZ<XFRPN2
+!s100 96QfznGaz70G03:7S`8df0
+R10
+32
+Z34 !s110 1616564458
+!i10b 1
+Z35 !s108 1616564458.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/f/Desktop/rojina/memari/2/Decoder/Decoder2_4.vhd|
+Z37 !s107 C:/Users/f/Desktop/rojina/memari/2/Decoder/Decoder2_4.vhd|
+!i113 0
+R15
+R16
+Agatelevel
+R5
+R6
+DEx4 work 10 decoder2_4 0 22 Ul_jHeQJRKW0;oZ<XFRPN2
+!i122 17
+l13
+L12 7
+VAFGOmFcR78MjXCC_0;YUl2
+!s100 nRU`QazTNDR]l1KbB`hhg2
+R10
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 0
+R15
+R16
+Edecoder2_4_tb
+Z38 w1616562771
+R5
+R6
+!i122 18
+R7
+Z39 8C:/Users/f/Desktop/rojina/memari/2/Decoder/Decoder2_4_tb.vhd
+Z40 FC:/Users/f/Desktop/rojina/memari/2/Decoder/Decoder2_4_tb.vhd
+l0
+L4 1
+Vd14BNXH@T4OR`BhgT`m]i3
+!s100 2nHzPONdoG@cj4;iBT5Sj3
+R10
+32
+R34
+!i10b 1
+R35
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/f/Desktop/rojina/memari/2/Decoder/Decoder2_4_tb.vhd|
+Z42 !s107 C:/Users/f/Desktop/rojina/memari/2/Decoder/Decoder2_4_tb.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+DEx4 work 13 decoder2_4_tb 0 22 d14BNXH@T4OR`BhgT`m]i3
+!i122 18
+l27
+L7 66
+V>1d0PlUhFfJ>WC2WVF:l60
+!s100 ^:=129:6eU]]K[MR]VmT:0
+R10
+32
+R34
+!i10b 1
+R35
+R41
+R42
+!i113 0
+R15
+R16
+Eencoder4_2
+Z43 w1616534857
+R5
+R6
+!i122 19
+R7
+Z44 8C:/Users/f/Desktop/rojina/memari/2/Encoder/Encoder4_2.vhd
+Z45 FC:/Users/f/Desktop/rojina/memari/2/Encoder/Encoder4_2.vhd
+l0
+L4 1
+V`E984e5m4F[c2Zch4YHf23
+!s100 TiGWG?g>?kK@blUn1h1Vm1
+R10
+32
+R34
+!i10b 1
+R35
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/f/Desktop/rojina/memari/2/Encoder/Encoder4_2.vhd|
+Z47 !s107 C:/Users/f/Desktop/rojina/memari/2/Encoder/Encoder4_2.vhd|
+!i113 0
+R15
+R16
+Agatelevel
+R5
+R6
+DEx4 work 10 encoder4_2 0 22 `E984e5m4F[c2Zch4YHf23
+!i122 19
+l11
+L10 6
+VAb[:E`O`2<iVlgJ4iV66k3
+!s100 eY9@UXmYEiVN@?3C>mJen1
+R10
+32
+R34
+!i10b 1
+R35
+R46
+R47
+!i113 0
+R15
+R16
+Eencoder4_2_tb
+Z48 w1616535373
+R5
+R6
+!i122 21
+R7
+Z49 8C:/Users/f/Desktop/rojina/memari/2/Encoder/Encoder4_2_tb.vhd
+Z50 FC:/Users/f/Desktop/rojina/memari/2/Encoder/Encoder4_2_tb.vhd
+l0
+L4 1
+VT`LDbDM27SJCjBbkfW]?Y2
+!s100 n=Z4cehbjmaY?H?5M=Of^0
+R10
+32
+Z51 !s110 1616566219
+!i10b 1
+Z52 !s108 1616566219.000000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/f/Desktop/rojina/memari/2/Encoder/Encoder4_2_tb.vhd|
+Z54 !s107 C:/Users/f/Desktop/rojina/memari/2/Encoder/Encoder4_2_tb.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+DEx4 work 13 encoder4_2_tb 0 22 T`LDbDM27SJCjBbkfW]?Y2
+!i122 21
+l26
+L7 48
+V>9nD@nOJVA2dEhI642n4o2
+!s100 57m@icaZazUR9JEceD;D[1
+R10
+32
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 0
+R15
+R16
+Emux16_1
+Z55 w1616571365
+R5
+R6
+!i122 28
+R7
+Z56 8C:\Users\f\Desktop\rojina\memari\2\Mux\Mux16_1.vhd
+Z57 FC:\Users\f\Desktop\rojina\memari\2\Mux\Mux16_1.vhd
+l0
+L5 1
+VWj7mJ:FQ1zYV`>cl_jMcP1
+!s100 8;gfa1PF0eknRVT`H0AP82
+R10
+32
+Z58 !s110 1616571370
+!i10b 1
+Z59 !s108 1616571370.000000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\2\Mux\Mux16_1.vhd|
+Z61 !s107 C:\Users\f\Desktop\rojina\memari\2\Mux\Mux16_1.vhd|
+!i113 0
+R15
+R16
+Agatelevel
+R5
+R6
+DEx4 work 7 mux16_1 0 22 Wj7mJ:FQ1zYV`>cl_jMcP1
+!i122 28
+l27
+L17 18
+ViIlLm85KWcGkFmCN7a_kz3
+!s100 7`Yg6VU@74_haS;B6JW543
+R10
+32
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 0
+R15
+R16
+Emux16_1_test
+Z62 w1616571829
+R5
+R6
+!i122 30
+R7
+Z63 8C:\Users\f\Desktop\rojina\memari\2\Mux\Mux16_1_test.vhd
+Z64 FC:\Users\f\Desktop\rojina\memari\2\Mux\Mux16_1_test.vhd
+l0
+L5 1
+Vh8TY<>MWT`0@jm=0<_[=S1
+!s100 zX7d@:SXUQC2R8[0R6df>2
+R10
+32
+Z65 !s110 1616571878
+!i10b 1
+Z66 !s108 1616571878.000000
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\2\Mux\Mux16_1_test.vhd|
+Z68 !s107 C:\Users\f\Desktop\rojina\memari\2\Mux\Mux16_1_test.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+DEx4 work 12 mux16_1_test 0 22 h8TY<>MWT`0@jm=0<_[=S1
+!i122 30
+l34
+L8 63
+ViB[cVGVJLT@89Q7W]4CHd1
+!s100 2^kb4iK:8J2hE_F5zTc^=0
+R10
+32
+R65
+!i10b 1
+R66
+R67
+R68
+!i113 0
+R15
+R16
+Emux4_1
+Z69 w1616532126
+R5
+R6
+!i122 22
+R7
+Z70 8C:/Users/f/Desktop/rojina/memari/2/Mux/Mux4_1.vhd
+Z71 FC:/Users/f/Desktop/rojina/memari/2/Mux/Mux4_1.vhd
+l0
+L4 1
+V@E@kgEg<G_ZgE7HgW=@5[3
+!s100 eSTkgObzQZFT3i^VRVA:93
+R10
+32
+R51
+!i10b 1
+R52
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/f/Desktop/rojina/memari/2/Mux/Mux4_1.vhd|
+Z73 !s107 C:/Users/f/Desktop/rojina/memari/2/Mux/Mux4_1.vhd|
+!i113 0
+R15
+R16
+Agatelevel
+R5
+R6
+DEx4 work 6 mux4_1 0 22 @E@kgEg<G_ZgE7HgW=@5[3
+!i122 22
+l16
+L14 10
+VJEI2=L@zJUmTeB;Jede1a1
+!s100 zVA6>oXZDj3Ho_k2dkM_W1
+R10
+32
+R51
+!i10b 1
+R52
+R72
+R73
+!i113 0
+R15
+R16

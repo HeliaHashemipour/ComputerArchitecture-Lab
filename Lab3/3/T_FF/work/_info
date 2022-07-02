@@ -1,0 +1,195 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/f/Desktop/tff2
+T_opt
+!s110 1618115185
+Vcn?c8OKb[d5RP7f:i[3;J2
+Z1 04 7 8 work t_ff_tb behavior 1
+=1-bc838515f377-60727a70-2cd-319c
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1618115336
+VP^2M>V2@73iGgjHU@AI`g0
+R1
+=1-bc838515f377-60727b07-3e4-379c
+o-quiet -auto_acc_if_foreign -work work
+R2
+n@_opt1
+R3
+R0
+Eripple_counter
+Z4 w1618115481
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+Z7 dC:/Users/f/Desktop/rojina/memari/3/T_FF
+Z8 8C:\Users\f\Desktop\rojina\memari\3\T_FF\Ripple_counter.vhd
+Z9 FC:\Users\f\Desktop\rojina\memari\3\T_FF\Ripple_counter.vhd
+l0
+L5 1
+VNf`dn20M8BNHRl8bCPK411
+!s100 4e:NMLR3C`z<BlDn@K7Y^0
+Z10 OL;C;2020.4;71
+32
+Z11 !s110 1618115495
+!i10b 1
+Z12 !s108 1618115495.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\3\T_FF\Ripple_counter.vhd|
+Z14 !s107 C:\Users\f\Desktop\rojina\memari\3\T_FF\Ripple_counter.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Abehavioral
+R5
+R6
+DEx4 work 14 ripple_counter 0 22 Nf`dn20M8BNHRl8bCPK411
+!i122 2
+l23
+L11 22
+VleU1bMoIo6V<a1EmKFD6_2
+!s100 ]jEf8[Ldz;QA@D7@g2WC42
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eripple_counter_test
+Z17 w1618115492
+R5
+R6
+!i122 3
+R7
+Z18 8C:\Users\f\Desktop\rojina\memari\3\T_FF\Ripple_counter_test.vhd
+Z19 FC:\Users\f\Desktop\rojina\memari\3\T_FF\Ripple_counter_test.vhd
+l0
+L7 1
+VzlmICda@W1i;=;B3i9EmL2
+!s100 Hfk`G3>]QY@Q]3@hil]c42
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\3\T_FF\Ripple_counter_test.vhd|
+!s107 C:\Users\f\Desktop\rojina\memari\3\T_FF\Ripple_counter_test.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+DEx4 work 19 ripple_counter_test 0 22 zlmICda@W1i;=;B3i9EmL2
+!i122 3
+l33
+L10 56
+V;EPjVaGU6g:P<Ak1M1P6@2
+!s100 o_dPIY`hYWfcVz^ZRC>263
+R10
+32
+R11
+!i10b 1
+R12
+R20
+Z21 !s107 C:\Users\f\Desktop\rojina\memari\3\T_FF\Ripple_counter_test.vhd|
+!i113 0
+R15
+R16
+Et_ff
+Z22 w1618115152
+R5
+R6
+!i122 0
+R7
+Z23 8C:\Users\f\Desktop\rojina\memari\3\T_FF\T_FF.vhd
+Z24 FC:\Users\f\Desktop\rojina\memari\3\T_FF\T_FF.vhd
+l0
+L4 1
+VWTa[A<XQF<6ihRGN3BGoT2
+!s100 ]H7cQeo]gDQPBUdoQkEVa1
+R10
+32
+Z25 !s110 1618115177
+!i10b 1
+Z26 !s108 1618115177.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\3\T_FF\T_FF.vhd|
+Z28 !s107 C:\Users\f\Desktop\rojina\memari\3\T_FF\T_FF.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R5
+R6
+DEx4 work 4 t_ff 0 22 WTa[A<XQF<6ihRGN3BGoT2
+!i122 0
+l13
+L11 16
+Vd6MDDm;c3IniPzBI`mXnA3
+!s100 ZOBOe>1DWoeS[m3JhKRF12
+R10
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R15
+R16
+Et_ff_tb
+Z29 w1618115173
+R5
+R6
+!i122 1
+R7
+Z30 8C:\Users\f\Desktop\rojina\memari\3\T_FF\T_FF_tb.vhd
+Z31 FC:\Users\f\Desktop\rojina\memari\3\T_FF\T_FF_tb.vhd
+l0
+L5 1
+VCzCHJD5N]2aEFMC4=EChm1
+!s100 a^Rf:M2_oUeFa@o7iB5T<3
+R10
+32
+R25
+!i10b 1
+R26
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\3\T_FF\T_FF_tb.vhd|
+Z33 !s107 C:\Users\f\Desktop\rojina\memari\3\T_FF\T_FF_tb.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+DEx4 work 7 t_ff_tb 0 22 CzCHJD5N]2aEFMC4=EChm1
+!i122 1
+l33
+L8 69
+VeD:STk0U[W?1zofRlEi<L1
+!s100 gKIHN7I]Jf5EF7KT@QUGd1
+R10
+32
+R25
+!i10b 1
+R26
+R32
+R33
+!i113 0
+R15
+R16

@@ -1,0 +1,54 @@
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity top_module is
+    Port ( 
+           Parallel_in : in  STD_LOGIC_VECTOR (3 downto 0);
+           LR : in  STD_LOGIC_VECTOR (1 downto 0);
+           Load : in  STD_LOGIC;
+           clk : in  STD_LOGIC;
+           rst : in  STD_LOGIC;
+	   number : out std_logic_vector(3 downto 0);		  
+           output : out std_logic_vector(6 downto 0) 
+         );
+end top_module;
+
+architecture Behavioral of top_module is
+	component shift_register is
+	   Port ( 
+           parallel_in : in  STD_LOGIC_VECTOR (3 downto 0);
+           lR : in  STD_LOGIC_VECTOR (1 downto 0);
+           load : in  STD_LOGIC;
+           reset : in  STD_LOGIC;
+           clk : in  STD_LOGIC;
+           reg_out : inout  STD_LOGIC_VECTOR (3 downto 0)
+        );
+	end component shift_register;
+	
+	component freq_divider is
+		Port(
+			clock_in : in std_logic ;
+                        reset : in std_logic;
+			clock_out : out std_logic );
+	end component freq_divider;
+	
+	component seven_segment is
+		Port(
+			bcd : in std_logic_vector(3 downto 0);
+			number : out std_logic_vector(3 downto 0);
+			output : out std_logic_vector(6 downto 0) );
+	end component seven_segment;
+	
+	signal Clk_out : std_logic;
+        signal Reg_out :std_logic_vector(3 downto 0);
+
+begin
+
+	f_d : freq_divider port map (clock_in => clk ,reset =>'0', clock_out => Clk_out);
+	REG : shift_register port map (parallel_in =>Parallel_in , lr => LR , load => load , reset => rst,clk => Clk_out, reg_out => Reg_out);
+	seg : seven_segment port map (bcd => Reg_out ,number => Reg_out, output => output);
+
+
+end Behavioral;
+

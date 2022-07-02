@@ -1,0 +1,184 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/User/Desktop/Lab04-HeliaSadatHshemipour-9831106/Ripple Carry Adder
+T_opt
+!s110 1618652521
+Vj8:Vb4kAMJ@>@7;c5mB<z1
+04 25 8 work tb_carry_look_ahead_adder behavior 1
+=1-78843ce57b7a-607aad68-2bd-2bec
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+Ecarry_look_ahead_adder
+Z0 w1618652454
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+Z3 dC:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder
+Z4 8C:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder/carry_look_ahead_adder.vhd
+Z5 FC:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder/carry_look_ahead_adder.vhd
+l0
+L7 1
+VZIXSHDaomMNb`IFG5dPR61
+!s100 mn_KPSjT0@A^VMoeQ4[>a0
+Z6 OL;C;2020.4;71
+32
+Z7 !s110 1618652513
+!i10b 1
+Z8 !s108 1618652513.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder/carry_look_ahead_adder.vhd|
+Z10 !s107 C:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder/carry_look_ahead_adder.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+DEx4 work 22 carry_look_ahead_adder 0 22 ZIXSHDaomMNb`IFG5dPR61
+!i122 1
+l30
+L15 56
+Vzia?2KfR]zoOQkmbhaH3`1
+!s100 4mLZSWzd]57F^3LYQSnVo3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Efull_adder
+Z13 w1618652469
+R1
+R2
+!i122 0
+R3
+Z14 8C:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder/full_adder.vhd
+Z15 FC:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder/full_adder.vhd
+l0
+L7 1
+VWOg1XlffXOZoWm8e<:n9l3
+!s100 9QXgVYDig;ZC@k=Tf43PP3
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder/full_adder.vhd|
+Z17 !s107 C:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder/full_adder.vhd|
+!i113 0
+R11
+R12
+Astructure
+R1
+R2
+DEx4 work 10 full_adder 0 22 WOg1XlffXOZoWm8e<:n9l3
+!i122 0
+l28
+L16 18
+VXcfN=1CI9hVGg144GZbVg1
+!s100 `[LR7kZA_I_X]HmG9n1iC1
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 0
+R11
+R12
+Ehalf_adder
+Z18 w1618652508
+R1
+R2
+!i122 3
+R3
+Z19 8C:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder/half_adder.vhd
+Z20 FC:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder/half_adder.vhd
+l0
+L7 1
+VnH0GLR[9b81fBP<0d=RHf2
+!s100 n]mECd@7Y:jR>k32JhE163
+R6
+32
+Z21 !s110 1618652514
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder/half_adder.vhd|
+Z23 !s107 C:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder/half_adder.vhd|
+!i113 0
+R11
+R12
+Astructure
+R1
+R2
+DEx4 work 10 half_adder 0 22 nH0GLR[9b81fBP<0d=RHf2
+!i122 3
+l16
+L15 6
+VRle?1R=b3V6B@lgbW`0_L3
+!s100 mXDQFYb>`nl[=<Ai9a<Wo1
+R6
+32
+R21
+!i10b 1
+R8
+R22
+R23
+!i113 0
+R11
+R12
+Etb_carry_look_ahead_adder
+Z24 w1618652504
+R1
+R2
+!i122 2
+R3
+Z25 8C:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder/tb_carry_look_ahead_adder.vhd
+Z26 FC:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder/tb_carry_look_ahead_adder.vhd
+l0
+L7 1
+VH_TV6;95A;c1EUmcH0Ad<3
+!s100 U9Wi2W=Q0b3gMahaIJQbZ0
+R6
+32
+R7
+!i10b 1
+R8
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder/tb_carry_look_ahead_adder.vhd|
+Z28 !s107 C:/Users/User/Videos/Lab04-HeliaSadatHashemipour-9831106/Carry Look Ahead Adder/tb_carry_look_ahead_adder.vhd|
+!i113 0
+R11
+R12
+Abehavior
+R1
+R2
+DEx4 work 25 tb_carry_look_ahead_adder 0 22 H_TV6;95A;c1EUmcH0Ad<3
+!i122 2
+l31
+L10 54
+Vn2?MZWPmohZ6MfDi7A8R]0
+!s100 NMTHOOUZk<_ko0SVoe[m@2
+R6
+32
+R7
+!i10b 1
+R8
+R27
+R28
+!i113 0
+R11
+R12

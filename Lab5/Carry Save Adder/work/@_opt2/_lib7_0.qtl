@@ -1,0 +1,444 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/multiplier
+T_opt
+!s110 1619949761
+VaNzz]l3k09@@GZ:5ZE1jK1
+04 10 9 work full_adder structure 1
+=1-78843ce57b7a-608e78c0-2f8-21c8
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+Z2 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1619951033
+VJE<lI9kR4?`Qa4_DEK3P40
+04 16 10 work carry_save_adder behavioral 1
+=1-78843ce57b7a-608e7db9-116-1cf0
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+R1
+n@_opt1
+R2
+R0
+T_opt2
+!s110 1619953292
+V`HK9Emb0OJH5;;e7LD[9=1
+04 19 4 work tb_carry_save_adder test 1
+=1-78843ce57b7a-608e868c-8d-37c
+R3
+R1
+n@_opt2
+R2
+Ecarry_save_adder
+Z4 w1619950912
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 58
+Z7 dC:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder
+Z8 8C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/carry_save_adder.vhd
+Z9 FC:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/carry_save_adder.vhd
+l0
+L4 1
+V>N@MCSMkPJ70YkE^Y9GW@1
+!s100 G8AI0><5D>I?F@2@3f9N72
+Z10 OL;C;2020.4;71
+32
+Z11 !s110 1619950989
+!i10b 1
+Z12 !s108 1619950989.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/carry_save_adder.vhd|
+Z14 !s107 C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/carry_save_adder.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Abehavioral
+R5
+R6
+DEx4 work 16 carry_save_adder 0 22 >N@MCSMkPJ70YkE^Y9GW@1
+!i122 58
+l42
+L12 67
+VFZ]bc?13_n_zLBB:6SFeI1
+!s100 ]dUk=zS6TXJh[KA@3mM?z2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Efull_adder
+Z17 w1619950981
+R5
+R6
+!i122 57
+R7
+Z18 8C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/full_adder.vhd
+Z19 FC:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/full_adder.vhd
+l0
+L4 1
+Vm_Jlm2D0KXgn[=59YnID<3
+!s100 kLeG;C?AYbo8LZa3AfzNG0
+R10
+32
+Z20 !s110 1619950985
+!i10b 1
+Z21 !s108 1619950985.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/full_adder.vhd|
+Z23 !s107 C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/full_adder.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 10 full_adder 0 22 m_Jlm2D0KXgn[=59YnID<3
+!i122 57
+l25
+L13 18
+V`eB43CLX]2]oIeKOc==Ki0
+!s100 `BMR_:;inX2fNXz3[5GY<0
+R10
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R15
+R16
+Agate_level
+R5
+R6
+DEx4 work 10 full_adder 0 22 0dEia9dRQojLl`;]Xb8RY1
+!i122 2
+l15
+L13 8
+VG_Wza83GXmh2F<N3HXWIL2
+!s100 9?7^KoC?OgWWF:kIdRg4b2
+R10
+32
+Z24 !s110 1619334093
+!i10b 1
+Z25 !s108 1619334093.000000
+R22
+R23
+!i113 0
+R15
+R16
+w1619334012
+Ehalf_adder
+Z26 w1619948964
+R5
+R6
+!i122 55
+R7
+Z27 8C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/half_adder.vhd
+Z28 FC:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/half_adder.vhd
+l0
+L4 1
+VFICUPl^59UZfMjF_5Jl4P0
+!s100 XI;]1LE8TQdkcE:`Dee3E0
+R10
+32
+Z29 !s110 1619950883
+!i10b 1
+Z30 !s108 1619950883.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/half_adder.vhd|
+Z32 !s107 C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/half_adder.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R5
+R6
+DEx4 work 10 half_adder 0 22 FICUPl^59UZfMjF_5Jl4P0
+!i122 55
+l13
+L12 6
+VRZh@^MD6?K?NA7clc>5[M3
+!s100 X>Yn@?4:7;VJY2fj`A?MZ1
+R10
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R15
+R16
+Ahalfadder
+DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R5
+R6
+DEx4 work 10 half_adder 0 22 DmF?4?[iAb7[`U3OTJhaJ0
+!i122 1
+l15
+L14 5
+VmaXKl4`JI?To>5acG66o[2
+!s100 :JzSKS>9?zDKNkI9SCEc@2
+R10
+32
+R24
+!i10b 1
+R25
+R31
+R32
+!i113 0
+R15
+R16
+w1619334083
+Etb_carry_save_adder
+Z33 w1619953281
+R5
+R6
+!i122 84
+R7
+Z34 8C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/tb_carry_save_adder.vhd
+Z35 FC:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/tb_carry_save_adder.vhd
+l0
+L4 1
+Vf4@95jjaUJ7X173h?b_^;2
+!s100 Y137FUb`jSc`^]`LWRc4=1
+R10
+32
+Z36 !s110 1619953285
+!i10b 1
+Z37 !s108 1619953285.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/tb_carry_save_adder.vhd|
+Z39 !s107 C:/Users/User/Pictures/Lab05-HeliaSadatHashemipour-9831106/Carry Save Adder/tb_carry_save_adder.vhd|
+!i113 0
+R15
+R16
+Atest
+R5
+R6
+DEx4 work 19 tb_carry_save_adder 0 22 f4@95jjaUJ7X173h?b_^;2
+!i122 84
+l20
+L6 41
+VL23R=9K1M;A0z1B=6==`C3
+!s100 7ggL[WBZbER2JEMf:><3b2
+R10
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 0
+R15
+R16
+primitives
+R106
+R21
+R20
+!i122 21
+R107
+R3
+8vhdl_src/vital2000/prmtvs_p_2000.vhd
+Fvhdl_src/vital2000/prmtvs_p_2000.vhd
+l0
+L50 1
+VG>kiXP8Q9dRClKfK1Zn7j1
+!s100 G>kiXP8Q9dRClKfK1Zn7j1
+R6
+31
+b1
+R92
+!i10b 1
+R93
+!s90 -debuglib|-suppress|12110|-93|-work|ieee|-novital|-dirpath|$MODEL_TECH/..|vhdl_src/vital2000/prmtvs_p_2000.vhd|
+!s107 vhdl_src/vital2000/prmtvs_p_2000.vhd|
+!i113 1
+R108
+R12
+Bbody
+DPx4 work 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+R106
+R21
+R20
+!i122 22
+8vhdl_src/vital2000/prmtvs_b_2000.vhd
+Fvhdl_src/vital2000/prmtvs_b_2000.vhd
+l0
+L33 1
+VL8@OL8nfVkLF;7TL8_DPa1
+!s100 L8@OL8nfVkLF;7TL8_DPa1
+R6
+31
+R92
+!i10b 1
+R93
+!s90 -debuglib|-suppress|12110|-93|-work|ieee|-novital|-dirpath|$MODEL_TECH/..|vhdl_src/vital2000/prmtvs_b_2000.vhd|
+!s107 vhdl_src/vital2000/prmtvs_b_2000.vhd|
+!i113 1
+R108
+R12
+Pvital_timing
+R21
+R20
+!i122 20
+R107
+R3
+8vhdl_src/vital2000/timing_p_2000.vhd
+Fvhdl_src/vital2000/timing_p_2000.vhd
+l0
+R96
+VJ>EBealN09f8GzldA[z2>3
+!s100 J>EBealN09f8GzldA[z2>3
+R6
+31
+b1
+R92
+!i10b 1
+R93
+!s90 -debuglib|-suppress|12110|-93|-work|ieee|-novital|-dirpath|$MODEL_TECH/..|vhdl_src/vital2000/timing_p_2000.vhd|
+!s107 vhdl_src/vital2000/timing_p_2000.vhd|
+!i113 1
+R108
+R12
+Bbody
+DPx4 work 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+R21
+R20
+!i122 21
+8vhdl_src/vital2000/timing_b_2000.vhd
+Fvhdl_src/vital2000/timing_b_2000.vhd
+l0
+R22
+VKEim8d[eJ5dE^:mEG0P3S0
+!s100 KEim8d[eJ5dE^:mEG0P3S0
+R6
+31
+R92
+!i10b 1
+R93
+!s90 -debuglib|-suppress|12110|-93|-work|ieee|-novital|-dirpath|$MODEL_TECH/..|vhdl_src/vital2000/timing_b_2000.vhd|
+!s107 vhdl_src/vital2000/timing_b_2000.vhd|
+!i113 1
+R108
+R12
+m255
+K4
+z2
+!s8c locked
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+!s95 MTI
+cModel Technology Builtin Library
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+dC:/cygwin/pc_home/rhino/buildsites/2020.p/builds/win64/modeltech
+Penv
+!i122 1
+Z0 w1602644074
+Z1 d$MODEL_TECH/..
+Z2 8vhdl_src/std/env.vhd
+Z3 Fvhdl_src/std/env.vhd
+l0
+L1 1
+Vd?`1ck@NdeD@H3RZG7FgZ2
+!s100 d?`1ck@NdeD@H3RZG7FgZ2
+Z4 OL;C;2020.4;71
+32
+b1
+Z5 !s110 1602644226
+!i10b 1
+Z6 !s108 1602644226.000000
+Z7 !s90 -debuglib|-suppress|12110|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/env.vhd|
+Z8 !s107 vhdl_src/std/env.vhd|
+!i113 1
+Z9 o-suppress 12110 -debuglib -work std -dirpath {$MODEL_TECH/..}
+Z10 tExplicit 1 CvgOpt 0
+Bbody
+DPx4 work 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+!i122 1
+l0
+L15 1
+VGO=IeNa]6JLe2BRN4G<kA2
+!s100 GO=IeNa]6JLe2BRN4G<kA2
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Pstandard
+!i122 0
+R0
+R1
+8vhdl_src/std/standard.vhd
+Fvhdl_src/std/standard.vhd
+l0
+L8 1
+VofRa6alAEoSE^5WcJ^O]C2
+!s100 ofRa6alAEoSE^5WcJ^O]C2
+R4
+33
+R5
+!i10b 1
+R6
+!s90 -debuglib|-suppress|12110|-s|-2008|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/standard.vhd|
+!s107 vhdl_src/std/standard.vhd|
+!i113 1
+o-suppress 12110 -debuglib -s -2008 -work std -dirpath {$MODEL_TECH/..}
+R10
+Ptextio
+!i122 2
+Z11 w1578762055
+R1
+Z12 8vhdl_src/std/textio.vhd
+Z13 Fvhdl_src/std/textio.vhd
+l0
+L1 1
+VzE1`LPoLg^DX3Oz^4Fj1K3
+!s100 zE1`LPoLg^DX3Oz^4Fj1K3
+R4
+33
+b1
+R5
+!i10b 1
+R6
+Z14 !s90 -debuglib|-suppress|12110|-2008|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/textio.vhd|
+Z15 !s107 vhdl_src/std/textio.vhd|
+!i113 1
+Z16 o-suppress 12110 -debuglib -2008 -work std -dirpath {$MODEL_TECH/..}
+R10
+Bbody
+DPx4 work 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+!i122 2
+l0
+L186 1
+VOBFf4Pj<FG4ZXfzD:k]VN1
+!s100 OBFf4Pj<FG4ZXfzD:k]VN1
+R4
+33
+R5
+!i10b 1
+R6
+R14
+R15
+!i113 1
+R16
+R10

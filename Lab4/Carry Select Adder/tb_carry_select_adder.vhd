@@ -1,0 +1,65 @@
+------------------------------
+--Lab04-Carry Select Adder
+------------------------------
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+ 
+Entity tb_carry_select_adder IS
+End tb_carry_select_adder;
+ 
+Architecture behavior OF tb_carry_select_adder IS
+ 
+component carry_select_adder
+Port(
+	A : IN std_logic_vector(3 downto 0);
+	B : IN std_logic_vector(3 downto 0);
+	Cin : IN std_logic;
+	S : OUT std_logic_vector(3 downto 0);
+	Cout : OUT std_logic);
+End component;
+ 
+--Inputs
+signal A : std_logic_vector(3 downto 0) := (others => '0');
+signal B : std_logic_vector(3 downto 0) := (others => '0');
+signal Cin : std_logic := '0';
+ 
+--Outputs
+signal S : std_logic_vector(3 downto 0);
+signal Cout : std_logic;
+ 
+Begin
+ 
+CSA: carry_select_adder PORT MAP (
+	A => A,
+	B => B,
+	Cin => Cin,
+	S => S,
+	Cout => Cout);
+ 
+stim_proc: process
+begin
+ 
+  wait for 100 ns;
+	Cin <= '0';
+	A <= "1011";
+	B <= "1001";
+ 
+  wait for 100 ns;
+	Cin <= '0';
+	A <= "0001";
+	B <= "1010";
+ 
+  wait for 100 ns;
+	Cin <= '0';
+	A <= "0111";
+	B <= "1111";
+
+  wait for 100 ns;
+	Cin <= '1';
+	A <= "0101";
+	B <= "1101";
+
+ wait;
+end process;
+ 
+END;

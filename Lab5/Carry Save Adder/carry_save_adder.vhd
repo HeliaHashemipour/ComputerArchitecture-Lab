@@ -1,0 +1,81 @@
+------------------------------
+--Lab05 multipliers
+------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity carry_save_adder is
+ port (
+ 	A : IN std_logic_vector(3 downto 0);
+ 	B : IN std_logic_vector(3 downto 0);
+	C : OUT std_logic_vector(7 downto 0)
+ );
+end carry_save_adder;
+
+architecture behavioral of carry_save_adder is
+--COMPONENT OF FULLADDER
+component full_adder
+ port (
+ 	A : IN std_logic;
+ 	B : IN std_logic;
+ 	Cin : IN std_logic;
+ 	Sum : OUT std_logic;
+	Cout : OUT std_logic
+ );
+end component;
+
+--COMPONENT OF HALFADDER
+component half_adder
+ port (
+ 	A : IN std_logic;
+ 	B : IN std_logic;
+ 	S : OUT std_logic;
+ 	Cout : OUT std_logic
+ );
+end component;
+
+
+signal and_gate : STD_LOGIC_VECTOR (14 downto 0);
+signal HA_cout: STD_LOGIC_VECTOR (3 downto 0);
+signal FA_cout: STD_LOGIC_VECTOR (6 downto 0);
+     
+signal HA_sum : STD_LOGIC_VECTOR(1 downto 0);
+signal sum_FA :STD_LOGIC_VECTOR (3 downto 0);
+
+begin
+
+C(0) <= A(0) and B(0);
+and_gate(0) <= A(0) and B(1);
+and_gate(1) <= A(1) and B(0);
+and_gate(2) <= A(0) and B(2);
+and_gate(3) <= A(1) and B(1);
+and_gate(4) <= A(0) and B(3);
+and_gate(5) <= A(1) and B(2);
+and_gate(6) <= A(1) and B(3);
+and_gate(7) <= A(2) and B(0);
+and_gate(8) <= A(2) and B(1);
+and_gate(9) <= A(2) and B(2);
+and_gate(10) <= A(2) and B(3);
+and_gate(11) <= A(3) and B(0);
+and_gate(12) <= A(3) and B(1);
+and_gate(13) <= A(3) and B(2);
+and_gate(14) <= A(3) and B(3);
+
+HA1 : half_adder PORT MAP(A => and_gate(0), B => and_gate(1), S => C(1), Cout => HA_cout(0)); 
+HA2 : half_adder PORT MAP(A => and_gate(2), B => and_gate(3), S => HA_sum(0), Cout => HA_cout(1));
+HA3 : half_adder PORT MAP(A => and_gate(4), B => and_gate(5), S => HA_sum(1), Cout => HA_cout(2));
+
+FA1 : full_adder PORT MAP(A => HA_cout(0), B => HA_sum(0), Cin => and_gate(7), Sum => C(2), Cout => FA_cout(0));
+FA2 : full_adder PORT MAP(A => HA_cout(1), B => HA_sum(1), Cin => and_gate(8), Sum => sum_FA(2), Cout => FA_cout(1));
+FA3 : full_adder PORT MAP(A => HA_cout(2), B => and_gate(6), Cin => and_gate(9), Sum => sum_FA(3), Cout => FA_cout(2));
+FA4 : full_adder PORT MAP(A => FA_cout(0), B => sum_FA(2), Cin => and_gate(11), Sum => C(3), Cout => FA_cout(3));
+FA5 : full_adder PORT MAP(A => FA_cout(1), B => sum_FA(3), Cin => and_gate(12), Sum => sum_FA(0), Cout => FA_cout(4));
+FA6 : full_adder PORT MAP(A => and_gate(10), B => FA_cout(2), Cin => and_gate(13), Sum => sum_FA(1), Cout => FA_cout(5));
+
+HA5 : half_adder PORT MAP(A => FA_cout(3), B => sum_FA(0), S => C(4), Cout => HA_cout(3));
+
+FA7 : full_adder PORT MAP(A => FA_cout(4), B => sum_FA(1), Cin => HA_cout(3), Sum => C(5), Cout => FA_cout(6));
+FA8 : full_adder PORT MAP(A => and_gate(14), B => FA_cout(5), Cin => FA_cout(6), Sum => C(6), Cout => C(7));
+
+
+end behavioral;

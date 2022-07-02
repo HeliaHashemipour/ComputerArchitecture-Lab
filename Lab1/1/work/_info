@@ -1,0 +1,276 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1615917605
+Vo:5?kYJ4S6?EEU6>j=Ma_0
+Z1 04 13 8 work full_adder_tb behavior 1
+=1-bc838515f377-6050f224-149-2c2c
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1615920366
+VeH3S3cRI5eDYM6PeSj[Nf0
+R1
+=1-bc838515f377-6050fced-368-1e30
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+Eand_gate
+Z4 w1615915994
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+Z7 dC:/Users/f/Desktop/rojina/memari/1
+Z8 8C:\Users\f\Desktop\rojina\memari\1\and_gate.vhd
+Z9 FC:\Users\f\Desktop\rojina\memari\1\and_gate.vhd
+l0
+L3 1
+V@HfG^R3QFo]_9d07Xj4@o2
+!s100 3<eEaiRO`FVBkCnP=R;_c2
+Z10 OL;C;2020.4;71
+32
+Z11 !s110 1615916196
+!i10b 1
+Z12 !s108 1615916196.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\1\and_gate.vhd|
+Z14 !s107 C:\Users\f\Desktop\rojina\memari\1\and_gate.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Agatelevel
+R5
+R6
+DEx4 work 8 and_gate 0 22 @HfG^R3QFo]_9d07Xj4@o2
+!i122 1
+l10
+L9 4
+V>7IcmodD2NAEkoIBzLP8^1
+!s100 3@4A<h1i53KSfh613[3MO3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Efull_adder
+Z17 w1615916916
+R5
+R6
+!i122 6
+R7
+Z18 8C:\Users\f\Desktop\rojina\memari\1\full_adder.vhd
+Z19 FC:\Users\f\Desktop\rojina\memari\1\full_adder.vhd
+l0
+L4 1
+V;_QbF7H0Ph9]h`X`TSFUa1
+!s100 d8HjGPK:[6]nfgL7ZM1M:3
+R10
+32
+Z20 !s110 1615917205
+!i10b 1
+Z21 !s108 1615917205.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\1\full_adder.vhd|
+Z23 !s107 C:\Users\f\Desktop\rojina\memari\1\full_adder.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 10 full_adder 0 22 ;_QbF7H0Ph9]h`X`TSFUa1
+!i122 6
+l24
+L10 20
+Va93h75Ie0Tc1=bz?O<JF<2
+!s100 Mn7`Lk[OH7z;;I>1dKn`:3
+R10
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R15
+R16
+Efull_adder_tb
+Z24 w1615918506
+R5
+R6
+!i122 8
+R7
+Z25 8C:/Users/f/Desktop/rojina/memari/1/full_adder_tb.vhd
+Z26 FC:/Users/f/Desktop/rojina/memari/1/full_adder_tb.vhd
+l0
+L4 1
+VPgZAUD7iZ39a@:UKQk`f_2
+!s100 6G4Df5hoYKk5ZLmN7e:X>1
+R10
+32
+Z27 !s110 1615920216
+!i10b 1
+Z28 !s108 1615920215.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/f/Desktop/rojina/memari/1/full_adder_tb.vhd|
+Z30 !s107 C:/Users/f/Desktop/rojina/memari/1/full_adder_tb.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+DEx4 work 13 full_adder_tb 0 22 PgZAUD7iZ39a@:UKQk`f_2
+!i122 8
+l27
+L7 28
+V7?@`X7BO<FGIj<9PPc>?I0
+!s100 Ue>bKQ?DBMh43PRl^=1V@2
+R10
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R15
+R16
+Ehalf_adder
+Z31 w1615916159
+R5
+R6
+!i122 4
+R7
+Z32 8C:\Users\f\Desktop\rojina\memari\1\half_adder.vhd
+Z33 FC:\Users\f\Desktop\rojina\memari\1\half_adder.vhd
+l0
+L4 1
+V94OBff[iiOUMC;UK@A?d^2
+!s100 bm9F7CK3SbU>6InKQh<K92
+R10
+32
+Z34 !s110 1615916197
+!i10b 1
+Z35 !s108 1615916197.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\1\half_adder.vhd|
+Z37 !s107 C:\Users\f\Desktop\rojina\memari\1\half_adder.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 10 half_adder 0 22 94OBff[iiOUMC;UK@A?d^2
+!i122 4
+l24
+L10 18
+Vj@YB4]Qez^h]9S=R^Rd]`1
+!s100 i[?n;@z?155ABdNc7:L]C1
+R10
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 0
+R15
+R16
+Eor_gate
+Z38 w1615916029
+R5
+R6
+!i122 2
+R7
+Z39 8C:\Users\f\Desktop\rojina\memari\1\or_gate.vhd
+Z40 FC:\Users\f\Desktop\rojina\memari\1\or_gate.vhd
+l0
+L3 1
+Vg@N@QRLFHL3UY?R>WcQj51
+!s100 UI2okNiBh076a7[Q?XzKC0
+R10
+32
+R11
+!i10b 1
+R12
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\1\or_gate.vhd|
+Z42 !s107 C:\Users\f\Desktop\rojina\memari\1\or_gate.vhd|
+!i113 0
+R15
+R16
+Agatelevel
+R5
+R6
+DEx4 work 7 or_gate 0 22 g@N@QRLFHL3UY?R>WcQj51
+!i122 2
+l10
+L9 4
+VCzE_nl4f6oJh3;Y9kCoXT2
+!s100 E9ikBYR8UBdfbVTTOG[Y71
+R10
+32
+R11
+!i10b 1
+R12
+R41
+R42
+!i113 0
+R15
+R16
+Exor_gate
+Z43 w1615916047
+R5
+R6
+!i122 3
+R7
+Z44 8C:\Users\f\Desktop\rojina\memari\1\xor_gate.vhd
+Z45 FC:\Users\f\Desktop\rojina\memari\1\xor_gate.vhd
+l0
+L3 1
+V2cgJSR2HM98>lDmQoQg7S0
+!s100 AoOkSo7E_ioXGhC7hB_Gk3
+R10
+32
+R11
+!i10b 1
+R12
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\f\Desktop\rojina\memari\1\xor_gate.vhd|
+Z47 !s107 C:\Users\f\Desktop\rojina\memari\1\xor_gate.vhd|
+!i113 0
+R15
+R16
+Agatelevel
+R5
+R6
+DEx4 work 8 xor_gate 0 22 2cgJSR2HM98>lDmQoQg7S0
+!i122 3
+l10
+L9 4
+V:_UbgAQ_3N6B6_J[KnWY91
+!s100 jhmS]OZN7SP9E>==`g01D1
+R10
+32
+R11
+!i10b 1
+R12
+R46
+R47
+!i113 0
+R15
+R16

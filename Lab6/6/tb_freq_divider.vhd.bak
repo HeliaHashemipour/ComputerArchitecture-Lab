@@ -1,0 +1,56 @@
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+
+ 
+ENTITY tb_freq_divider IS
+END tb_freq_divider;
+ 
+ARCHITECTURE behavior OF tb_freq_divider IS 
+ 
+    -- Component Declaration for the Unit Under Test (UUT)
+ 
+    COMPONENT Freq_divider
+    PORT(
+         clock_in : IN  std_logic;
+         reset : IN std_logic;
+         clock_out : OUT  std_logic
+        );
+    END COMPONENT;
+    
+
+   --Inputs
+   signal clock_in : std_logic := '0';
+   signal reset : std_logic := '0';
+
+ 	--Outputs
+   signal clock_out : std_logic;
+
+   -- Clock period definitions
+   constant clock_in_period : time := 1 ms;
+ 
+BEGIN
+ 
+	-- Instantiate the Unit Under Test (UUT)
+   uut: freq_divider PORT MAP (
+          clock_in => clock_in,
+          reset => reset,
+          clock_out => clock_out
+        );
+
+   -- Clock process definitions
+   clock_in_process :process
+   begin
+		clock_in <= '0';
+		wait for clock_in_period/2;
+		clock_in <= '1';
+		wait for clock_in_period/2;
+   end process;
+ 
+ 
+
+   -- Stimulus process
+
+
+END;
+

@@ -1,0 +1,28 @@
+Command line:
+   Cam_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52137
+
+Wed May 26 00:43:48 2021
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5153.91 Meg
+
+ Total Signals          : 13
+ Total Nets             : 73
+ Total Signal Drivers   : 7
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 3
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 564
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5153.91 Meg
+
+Wed May 26 00:44:06 2021
+
